@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C1D81F92A55CF4700C526F4 /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1D81F82A55CF4700C526F4 /* ProductRow.swift */; };
+		3C1D81FB2A567B0D00C526F4 /* PayementButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1D81FA2A567B0D00C526F4 /* PayementButton.swift */; };
+		3C6066B02A547F6D007C031E /* ShoppigAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6066AF2A547F6D007C031E /* ShoppigAppApp.swift */; };
+		3C6066B22A547F6D007C031E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6066B12A547F6D007C031E /* ContentView.swift */; };
+		3C6066B42A547F6E007C031E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C6066B32A547F6E007C031E /* Assets.xcassets */; };
+		3C6066B82A547F6E007C031E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C6066B72A547F6E007C031E /* Preview Assets.xcassets */; };
+		3C6066C22A547F6F007C031E /* ShoppigAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6066C12A547F6F007C031E /* ShoppigAppTests.swift */; };
+		3C6066CC2A547F6F007C031E /* ShoppigAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6066CB2A547F6F007C031E /* ShoppigAppUITests.swift */; };
+		3C6066CE2A547F6F007C031E /* ShoppigAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6066CD2A547F6F007C031E /* ShoppigAppUITestsLaunchTests.swift */; };
+		3C6066DC2A5483AA007C031E /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6066DB2A5483AA007C031E /* Product.swift */; };
+		3C6066E02A548711007C031E /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6066DF2A548711007C031E /* ProductCard.swift */; };
+		3C6066E32A5534DF007C031E /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6066E22A5534DF007C031E /* CartButton.swift */; };
+		3C6066E52A553751007C031E /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6066E42A553751007C031E /* CartView.swift */; };
+		3C6066E72A553847007C031E /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6066E62A553847007C031E /* CartManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C6066BE2A547F6F007C031E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C6066A42A547F6C007C031E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C6066AB2A547F6C007C031E;
+			remoteInfo = ShoppigApp;
+		};
+		3C6066C82A547F6F007C031E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C6066A42A547F6C007C031E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C6066AB2A547F6C007C031E;
+			remoteInfo = ShoppigApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C1D81F82A55CF4700C526F4 /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+		3C1D81FA2A567B0D00C526F4 /* PayementButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayementButton.swift; sourceTree = "<group>"; };
+		3C6066AC2A547F6C007C031E /* ShoppigApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppigApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C6066AF2A547F6D007C031E /* ShoppigAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppigAppApp.swift; sourceTree = "<group>"; };
+		3C6066B12A547F6D007C031E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3C6066B32A547F6E007C031E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C6066B52A547F6E007C031E /* ShoppigApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShoppigApp.entitlements; sourceTree = "<group>"; };
+		3C6066B72A547F6E007C031E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C6066BD2A547F6F007C031E /* ShoppigAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppigAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C6066C12A547F6F007C031E /* ShoppigAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppigAppTests.swift; sourceTree = "<group>"; };
+		3C6066C72A547F6F007C031E /* ShoppigAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppigAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C6066CB2A547F6F007C031E /* ShoppigAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppigAppUITests.swift; sourceTree = "<group>"; };
+		3C6066CD2A547F6F007C031E /* ShoppigAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppigAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3C6066DB2A5483AA007C031E /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		3C6066DF2A548711007C031E /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
+		3C6066E22A5534DF007C031E /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
+		3C6066E42A553751007C031E /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		3C6066E62A553847007C031E /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C6066A92A547F6C007C031E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C6066BA2A547F6F007C031E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C6066C42A547F6F007C031E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C6066A32A547F6C007C031E = {
+			isa = PBXGroup;
+			children = (
+				3C6066AE2A547F6C007C031E /* ShoppigApp */,
+				3C6066C02A547F6F007C031E /* ShoppigAppTests */,
+				3C6066CA2A547F6F007C031E /* ShoppigAppUITests */,
+				3C6066AD2A547F6C007C031E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C6066AD2A547F6C007C031E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C6066AC2A547F6C007C031E /* ShoppigApp.app */,
+				3C6066BD2A547F6F007C031E /* ShoppigAppTests.xctest */,
+				3C6066C72A547F6F007C031E /* ShoppigAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C6066AE2A547F6C007C031E /* ShoppigApp */ = {
+			isa = PBXGroup;
+			children = (
+				3C6066AF2A547F6D007C031E /* ShoppigAppApp.swift */,
+				3C6066B32A547F6E007C031E /* Assets.xcassets */,
+				3C6066B52A547F6E007C031E /* ShoppigApp.entitlements */,
+				3C6066E12A54971A007C031E /* Views */,
+				3C6066DD2A5485E7007C031E /* Components */,
+				3C6066DA2A54837D007C031E /* Models */,
+				3C6066B62A547F6E007C031E /* Preview Content */,
+				3C6066E62A553847007C031E /* CartManager.swift */,
+			);
+			path = ShoppigApp;
+			sourceTree = "<group>";
+		};
+		3C6066B62A547F6E007C031E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3C6066B72A547F6E007C031E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3C6066C02A547F6F007C031E /* ShoppigAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C6066C12A547F6F007C031E /* ShoppigAppTests.swift */,
+			);
+			path = ShoppigAppTests;
+			sourceTree = "<group>";
+		};
+		3C6066CA2A547F6F007C031E /* ShoppigAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C6066CB2A547F6F007C031E /* ShoppigAppUITests.swift */,
+				3C6066CD2A547F6F007C031E /* ShoppigAppUITestsLaunchTests.swift */,
+			);
+			path = ShoppigAppUITests;
+			sourceTree = "<group>";
+		};
+		3C6066DA2A54837D007C031E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3C6066DB2A5483AA007C031E /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3C6066DD2A5485E7007C031E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3C6066DF2A548711007C031E /* ProductCard.swift */,
+				3C6066E22A5534DF007C031E /* CartButton.swift */,
+				3C1D81F82A55CF4700C526F4 /* ProductRow.swift */,
+				3C1D81FA2A567B0D00C526F4 /* PayementButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3C6066E12A54971A007C031E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3C6066B12A547F6D007C031E /* ContentView.swift */,
+				3C6066E42A553751007C031E /* CartView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C6066AB2A547F6C007C031E /* ShoppigApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C6066D12A547F6F007C031E /* Build configuration list for PBXNativeTarget "ShoppigApp" */;
+			buildPhases = (
+				3C6066A82A547F6C007C031E /* Sources */,
+				3C6066A92A547F6C007C031E /* Frameworks */,
+				3C6066AA2A547F6C007C031E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShoppigApp;
+			productName = ShoppigApp;
+			productReference = 3C6066AC2A547F6C007C031E /* ShoppigApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C6066BC2A547F6F007C031E /* ShoppigAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C6066D42A547F6F007C031E /* Build configuration list for PBXNativeTarget "ShoppigAppTests" */;
+			buildPhases = (
+				3C6066B92A547F6F007C031E /* Sources */,
+				3C6066BA2A547F6F007C031E /* Frameworks */,
+				3C6066BB2A547F6F007C031E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C6066BF2A547F6F007C031E /* PBXTargetDependency */,
+			);
+			name = ShoppigAppTests;
+			productName = ShoppigAppTests;
+			productReference = 3C6066BD2A547F6F007C031E /* ShoppigAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C6066C62A547F6F007C031E /* ShoppigAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C6066D72A547F6F007C031E /* Build configuration list for PBXNativeTarget "ShoppigAppUITests" */;
+			buildPhases = (
+				3C6066C32A547F6F007C031E /* Sources */,
+				3C6066C42A547F6F007C031E /* Frameworks */,
+				3C6066C52A547F6F007C031E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C6066C92A547F6F007C031E /* PBXTargetDependency */,
+			);
+			name = ShoppigAppUITests;
+			productName = ShoppigAppUITests;
+			productReference = 3C6066C72A547F6F007C031E /* ShoppigAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C6066A42A547F6C007C031E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					3C6066AB2A547F6C007C031E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					3C6066BC2A547F6F007C031E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3C6066AB2A547F6C007C031E;
+					};
+					3C6066C62A547F6F007C031E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3C6066AB2A547F6C007C031E;
+					};
+				};
+			};
+			buildConfigurationList = 3C6066A72A547F6C007C031E /* Build configuration list for PBXProject "ShoppigApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C6066A32A547F6C007C031E;
+			productRefGroup = 3C6066AD2A547F6C007C031E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C6066AB2A547F6C007C031E /* ShoppigApp */,
+				3C6066BC2A547F6F007C031E /* ShoppigAppTests */,
+				3C6066C62A547F6F007C031E /* ShoppigAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C6066AA2A547F6C007C031E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6066B82A547F6E007C031E /* Preview Assets.xcassets in Resources */,
+				3C6066B42A547F6E007C031E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C6066BB2A547F6F007C031E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C6066C52A547F6F007C031E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C6066A82A547F6C007C031E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6066E52A553751007C031E /* CartView.swift in Sources */,
+				3C6066B22A547F6D007C031E /* ContentView.swift in Sources */,
+				3C6066E72A553847007C031E /* CartManager.swift in Sources */,
+				3C6066B02A547F6D007C031E /* ShoppigAppApp.swift in Sources */,
+				3C1D81F92A55CF4700C526F4 /* ProductRow.swift in Sources */,
+				3C6066DC2A5483AA007C031E /* Product.swift in Sources */,
+				3C6066E02A548711007C031E /* ProductCard.swift in Sources */,
+				3C6066E32A5534DF007C031E /* CartButton.swift in Sources */,
+				3C1D81FB2A567B0D00C526F4 /* PayementButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C6066B92A547F6F007C031E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6066C22A547F6F007C031E /* ShoppigAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C6066C32A547F6F007C031E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6066CC2A547F6F007C031E /* ShoppigAppUITests.swift in Sources */,
+				3C6066CE2A547F6F007C031E /* ShoppigAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C6066BF2A547F6F007C031E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C6066AB2A547F6C007C031E /* ShoppigApp */;
+			targetProxy = 3C6066BE2A547F6F007C031E /* PBXContainerItemProxy */;
+		};
+		3C6066C92A547F6F007C031E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C6066AB2A547F6C007C031E /* ShoppigApp */;
+			targetProxy = 3C6066C82A547F6F007C031E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3C6066CF2A547F6F007C031E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C6066D02A547F6F007C031E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3C6066D22A547F6F007C031E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ShoppigApp/ShoppigApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShoppigApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 9JG2F427F4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-211.ShoppigApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C6066D32A547F6F007C031E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ShoppigApp/ShoppigApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShoppigApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 9JG2F427F4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-211.ShoppigApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C6066D52A547F6F007C031E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9JG2F427F4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-211.ShoppigAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShoppigApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShoppigApp";
+			};
+			name = Debug;
+		};
+		3C6066D62A547F6F007C031E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9JG2F427F4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-211.ShoppigAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShoppigApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShoppigApp";
+			};
+			name = Release;
+		};
+		3C6066D82A547F6F007C031E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9JG2F427F4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-211.ShoppigAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShoppigApp;
+			};
+			name = Debug;
+		};
+		3C6066D92A547F6F007C031E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9JG2F427F4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-211.ShoppigAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShoppigApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C6066A72A547F6C007C031E /* Build configuration list for PBXProject "ShoppigApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C6066CF2A547F6F007C031E /* Debug */,
+				3C6066D02A547F6F007C031E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C6066D12A547F6F007C031E /* Build configuration list for PBXNativeTarget "ShoppigApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C6066D22A547F6F007C031E /* Debug */,
+				3C6066D32A547F6F007C031E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C6066D42A547F6F007C031E /* Build configuration list for PBXNativeTarget "ShoppigAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C6066D52A547F6F007C031E /* Debug */,
+				3C6066D62A547F6F007C031E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C6066D72A547F6F007C031E /* Build configuration list for PBXNativeTarget "ShoppigAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C6066D82A547F6F007C031E /* Debug */,
+				3C6066D92A547F6F007C031E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C6066A42A547F6C007C031E /* Project object */;
+}
